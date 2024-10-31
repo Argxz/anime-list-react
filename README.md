@@ -1,5 +1,12 @@
-Aplikasi List Anime menggunakan ReactJS'
-List anime didapatkan dari API https://api.jikan.moe/v4/anime
+# Aplikasi List Anime dengan ReactJS
+
+Proyek ini adalah aplikasi sederhana untuk menampilkan daftar anime menggunakan ReactJS. Data anime diperoleh dari API Jikan.
+
+## Fitur
+
+- Menampilkan daftar anime
+- Menggunakan API [Jikan](https://api.jikan.moe/v4/anime) untuk mendapatkan data anime
+
 
 AnimeKU
 
