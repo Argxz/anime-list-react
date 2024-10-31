@@ -74,3 +74,7 @@ body {
   box-shadow: none; /* Menghapus bayangan jika ada */
   width: 180px; /* Ukuran gambar */
 }
+
+.button-container{
+  text-align: center;
+}

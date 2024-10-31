@@ -24,7 +24,7 @@ function Dashboard() {
             <p>Jadikan pengalaman menonton anime-mu lebih menyenangkan dan seru!</p>
 
 
-        <div className="button-container">
+        <div>
             <Button color="primary" onClick={() => navigate('/list-anime')}>List Anime</Button>
             <Button color="primary" onClick={() => navigate('/about')} style={{ marginLeft: '10px' }}>Tentang</Button>
         </div>

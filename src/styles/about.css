@@ -1,0 +1,61 @@
+.about-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #db0202;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Atur hover untuk tombol kembali */
+.back-button:hover {
+    background-color: #740303;
+}
+
+.about-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #1d3557;
+    text-align: center;
+}
+
+.about-container p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.about-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #457b9d;
+}
+
+.about-container ul {
+    list-style: disc;
+    padding-left: 20px;
+    color: #555;
+}
+
+.about-container ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
