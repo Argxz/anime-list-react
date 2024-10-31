@@ -27,8 +27,8 @@ const handleBack = () => {
     navigate('/');
 };
 
-const handleDetail = (animeId) => {
-    navigate(`/anime/${animeId}`);
+const handleDetailClick = (animeId) => {
+    navigate(`/detail/${animeId}`);
 };
 
 if (loading) {
@@ -71,7 +71,7 @@ return (
                 <td>{anime.rating ? anime.rating : 'N/A'}</td>
                 <td>{anime.score ? anime.score : 'N/A'}</td>
                 <td>
-                    <Button color="light" onClick={() => handleDetail(anime.mal_id)}>
+                    <Button color="light" onClick={() => handleDetailClick(anime.mal_id)}>
                         Detail
                     </Button>
                 </td>
