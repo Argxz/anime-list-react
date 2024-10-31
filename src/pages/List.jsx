@@ -27,8 +27,8 @@ const handleBack = () => {
     navigate('/');
 };
 
-const handleDetail = (id) => {
-    navigate(`/anime/${id}`);
+const handleDetail = (animeId) => {
+    navigate(`/anime/${animeId}`);
 };
 
 if (loading) {
