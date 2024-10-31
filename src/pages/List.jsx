@@ -41,7 +41,7 @@ if (error) {
 
 return (
 <div className="anime-list-container">
-    <Button onClick={handleBack} className="button-back">
+    <Button color="danger" onClick={handleBack} className="button-back">
         Kembali
     </Button>
     <h1 style={{ textAlign: 'center' }}>Daftar Anime</h1>
@@ -61,7 +61,7 @@ return (
         {animes.map(anime => (
             <tr key={anime.mal_id}>
                 <td>
-                    <img src={anime.images.jpg.image_url} alt={anime.title} style={{ width: '100px' }} />
+                    <img src={anime.images.jpg.image_url} alt={anime.title}/>
                 </td>
                 <td>{anime.title}</td>
                 <td>
