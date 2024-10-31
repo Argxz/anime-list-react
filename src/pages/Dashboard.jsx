@@ -1,6 +1,7 @@
-import '../App.css'
+
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Button } from 'reactstrap';
 
 function Dashboard() {
     const navigate = useNavigate();
@@ -24,8 +25,8 @@ function Dashboard() {
 
 
         <div className="button-container">
-            <button onClick={() => navigate('/anime-list')}>List Anime</button>
-            <button onClick={() => navigate('/about')} style={{ marginLeft: '10px' }}>Tentang</button>
+            <Button color="primary" onClick={() => navigate('/list-anime')}>List Anime</Button>
+            <Button color="primary" onClick={() => navigate('/about')} style={{ marginLeft: '10px' }}>Tentang</Button>
         </div>
 
         <div className="recommendations">

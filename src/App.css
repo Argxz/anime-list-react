@@ -8,13 +8,13 @@ body {
 }
 
 .dashboard-container {
-  background-color: rgba(255, 255, 255, 0.8); /* Background putih semi-transparan */
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 30px;
   border-radius: 12px;
   text-align: center;
   width: 80%;
   max-width: 600px;
-  margin: 50px auto; /* Rata tengah secara horizontal */
+  margin: 50px auto;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -22,26 +22,13 @@ body {
   margin-top: 0;
 }
 
-.button-container {
-  display: flex;
-  gap: 10px; /* Jarak antar tombol */
-  justify-content: center;
-  margin-top: 20px;
-}
-
-button {
-  padding: 10px 20px;
-  font-size: 1rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  background-color: #4a90e2;
-  color: white;
-  transition: background-color 0.3s;
-}
-
-button:hover {
-  background-color: #357ABD;
+.anime-list-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .recommendations {
@@ -52,7 +39,7 @@ button:hover {
   color: #f1faee;
   width: 90%;
   max-width: 400px;
-  margin: 30px auto; /* Rata tengah */
+  margin: 30px auto;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -69,13 +56,17 @@ button:hover {
 
 .recommendations li {
   display: flex;
-  justify-content: space-between; /* Mengatur teks dan bintang rata kanan kiri */
+  justify-content: space-between;
   align-items: center;
   font-size: 1.1rem;
   padding: 5px 0;
 }
 
 .stars {
-  color: #FFD700; /* Warna emas untuk bintang */
+  color: #FFD700;
   font-size: 1.2rem;
+}
+
+img {
+  border-radius: 4px;
 }
